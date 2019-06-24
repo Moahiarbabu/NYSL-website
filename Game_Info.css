@@ -1,0 +1,114 @@
+body{background-color: #b5e6e6;
+margin: 0px;}
+.menu0{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-content: center;
+    justify-content: space-around;
+}
+.menu1{
+    color: aliceblue;
+}
+.menu2{
+    align-self: center;}
+
+.menu2 ul {
+    margin:px;
+    padding: 2px;
+    list-style: none;
+    
+
+
+}
+
+.menu2 ul li {
+    display:inline-block;
+}
+
+.menu2 ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 3px;
+    padding:10px
+
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+
+}
+
+li a:hover:not(.active) {
+    background-color: darkgoldenrod;
+    color: white;
+    border-radius: 10px;
+
+
+}
+
+
+.head1 {
+    text-align: center;
+    background-color: brown;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.head2 {
+    font-style: italic;
+}
+
+.head3 {
+    border-bottom: 2px solid black;
+    width: 485px;
+}
+
+table {
+    margin-left: 300px
+}
+
+.babu th {
+    border-bottom: 3px solid black;
+    margin: 20px;
+    padding: px
+}
+
+.babu tr,
+td,
+th {
+    padding: 2px;
+}
+
+.bal{font-size: 30px;
+}
+
+.babu {
+    margin-left: 300px;
+    font-size: 30px;
+}
+
+.footer1 {
+    font-size: 30px;
+    margin-left: 300px;
+    position: relative;
+    top: 4px;
+}
+
+.footer2 {
+    position: absolute;
+    bottom: 0px;
+    right: 145px;}
+.real{display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+.real2{background-color: #f1f1f1;
+  width: 600px;
+  margin: 20px;
+  text-align: center;
+  font-size: 30px;}
+
